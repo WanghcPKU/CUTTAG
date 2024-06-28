@@ -4,14 +4,16 @@ Quality Control
 1.fastqc  
 2.multiqc  
 ## Step 2 02trim.sh
-Trim the adaptors  
+Trim the adaptors.  
 ## Step 3 03fastqc.sh  
 ## Step 4 04bowtie2.sh  
 Map the high quality reads to the genome.  
 bowtie2 index dowanload : https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml  
 or build the genome index by processing genome.fa ：`bowtie2-build -f genome.fa hg38`  
 genome.fa download : https://hgdownload.soe.ucsc.edu/downloads.html or http://asia.ensembl.org/index.html   
-**Note the download version!**  
+  
+**Pay attention to the download version!**  
+  
 ## Step 5 05bam.sh  
 1.Sort the bam file and index alignment. --> `sort.sh`  
 2.Transform the sorted file to .bw file. --> `bg.sh`  
