@@ -1,0 +1,5 @@
+SampleID,Tissue,Factor,Condition,Treatment,Replicate,bamReads,ControlID,bamControl,Peaks,PeakCaller
+E-0-1,IMR90,CUTTAG,control,full-media,1,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/bam/E-0-1_bowtie2_sorted.bam,,,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/peaks/E-0-1_peaks.narrowPeak,narrow
+E-0-2,IMR90,CUTTAG,control,full-media,2,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/bam/E-0-2_bowtie2_sorted.bam,,,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/peaks/E-0-2_peaks.narrowPeak,narrow
+E-10-1,IMR90,CUTTAG,treat,full-media,1,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/bam/E-10-1_bowtie2_sorted.bam,,,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/peaks/E-10-1_peaks.narrowPeak,narrow
+E-10-2,IMR90,CUTTAG,treat,full-media,2,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/bam/E-10-2_bowtie2_sorted.bam,,,/lustre/user/taowlab/wanghc/work/lvwc/cuttag3/peaks/E-10-2_peaks.narrowPeak,narrow
